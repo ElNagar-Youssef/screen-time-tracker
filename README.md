@@ -56,7 +56,7 @@ A desktop application written in Python that monitors and logs your screen time 
 3. **Install Dependencies:**
 
    ```bash
-   pip install PyQt5 matplotlib psutil pywin32 qdarktheme
+   pip install PyQt5 matplotlib psutil pywin32 pyqtdarktheme
    ```
 
 ## Usage
