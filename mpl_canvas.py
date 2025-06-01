@@ -25,7 +25,7 @@ class MplCanvas(FigureCanvas):
 
         # Set the x-axis labels to display the days of the week
         self.axes.set_xticks(range(7))
-        self.axes.set_xticklabels(["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"])
+        self.axes.set_xticklabels(["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"])
         self.axes.set_xlim(-0.5, 6.5)
 
         # Set the y-axis labels to display the time in hours
