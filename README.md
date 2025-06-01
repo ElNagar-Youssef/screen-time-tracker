@@ -2,6 +2,7 @@
 
 A desktop application written in Python that monitors and logs your screen time on Windows. It uses PyQt5 for the graphical user interface, Matplotlib for interactive data visualizations, and SQLite for persistent logging. The application runs in the background, minimizes to the system tray, and displays detailed usage statistics.
 
+
 ## Features
 
 - **Real-Time Tracking:**\
@@ -23,6 +24,11 @@ A desktop application written in Python that monitors and logs your screen time 
 
 - **System Tray Integration:**\
   When closed, the application minimizes to the system tray to continue tracking in the background.
+
+## Preview
+![Weekly View](https://github.com/user-attachments/assets/6bc4f61c-416c-4853-b5f2-4d0155985ca7)
+![Daily View](https://github.com/user-attachments/assets/582266d5-2008-49bd-b0c4-61fc3a478964)
+
 
 ## Installation
 
@@ -50,7 +56,7 @@ A desktop application written in Python that monitors and logs your screen time 
    python -m venv venv
    # Activate the virtual environment:
    # On Windows:
-   venv\Scripts\activate
+   .venv\Scripts\activate
    ```
 
 3. **Install Dependencies:**
